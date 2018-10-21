@@ -21,6 +21,8 @@
 			<Category name="HSSPK_LO" alias="HSSPK,Headset+Speaker" feature_option="SPK_PATH_LO"/>
 			<Category name="HSSPK_HP" alias="HSSPK,Headset+Speaker" feature_option="SPK_PATH_HP"/>
 			<Category name="HSSPK_NO_ANA" alias="HSSPK,Headset+Speaker" feature_option="SPK_PATH_NO_ANA"/>
+
+			<Category name="USB"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

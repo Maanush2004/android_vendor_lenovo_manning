@@ -31,6 +31,7 @@ key 105   DPAD_LEFT
 key 106   DPAD_RIGHT
 key 115   VOLUME_UP
 key 114   VOLUME_DOWN
+key 485   MUSIC_KEY
 key 113   MUTE
 key 116   POWER
 key 212   CAMERA
@@ -94,9 +95,3 @@ key 163   MEDIA_NEXT
 key 165   MEDIA_PREVIOUS
 key 168   MEDIA_REWIND
 key 159   MEDIA_FAST_FORWARD
-# 20170121:add by HQ-suochuanqi for sar sensor begin
-key 744   SAR
-# 20170121:add by HQ-suochuanqi for sar sensor end
-# 20170215:add by HQ-lingyuguo for music key begin
-key 485   MUSIC_KEY
-# 20170215:add by HQ-lingyuguo for music key end

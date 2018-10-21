@@ -20,6 +20,7 @@
 			<Category name="5-pole headset+ANC" wording="5-pole headset(ANC ON)" feature_option="MTK_HEADSET_ACTIVE_NOISE_CANCELLATION"/>
 			<Category name="Speaker"/>
 			<Category name="Headset+Speaker"/>
+			<Category name="USB"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

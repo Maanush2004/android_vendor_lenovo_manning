@@ -2,21 +2,18 @@
 <ParamUnitDesc tab_name="Audio Record" version="1.0">
 	<CategoryTypeList>
 		<CategoryType name="Application">
-			<CategoryGroup name="Sound recording">
-				<Category name="SndRecNormal" wording="Normal"/>
-				<Category name="SndRecLecture" wording="Lecture"/>
-				<Category name="SndRecMeeting" wording="Meeting"/>
-			</CategoryGroup>
-			<CategoryGroup name="Camera recording">
-				<Category name="CamRecNormal" wording="Normal"/>
-				<Category name="CamRecMeeting" wording="Meeting"/>
-			</CategoryGroup>
-			<Category name="ASR" wording="ASR improvement" />
+			<Category name="SndRecNormal" wording="Sound recording"/>
+			<Category name="SndRecLecture" wording="Lecture" visible="false"/>
+			<Category name="SndRecMeeting" wording="Meeting" visible="false"/>
+			<Category name="CamRecNormal" wording="Camera recording"/>
+			<Category name="CamRecMeeting" wording="Meeting" visible="false"/>
+			<Category name="ASR" wording="ASR improvement" visible="false"/>
 			<Category name="VR" wording="Voice recognition &amp; CTS verifier" />
 			<Category name="VoiceUnLk" visible="false" />
 			<Category name="Customization2" visible="false"/>
 			<Category name="FastRecord" visible="false"/>
 			<Category name="Unprocessed" visible="false"/>
+			<Category name="IncallRecord" visible="false"/>
 		</CategoryType>
 		<CategoryType name="Profile" wording="Device">
 			<Category name="Handset"/>
@@ -26,6 +23,7 @@
 				<Category name="5-pole HS+ANC" wording="5-pole headset(ANC ON)" feature_option="MTK_HEADSET_ACTIVE_NOISE_CANCELLATION"/>
 			</CategoryGroup>
 			<Category name="BT earphone" wording="Bluetooth"/>
+			<Category name="USB" wording="USB" feature_option="MTK_AURISYS_FRAMEWORK_SUPPORT"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

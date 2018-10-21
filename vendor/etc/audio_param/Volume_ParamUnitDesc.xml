@@ -76,11 +76,5 @@
 		<Param name="ul_pga_r_mixer_name" type="string"/>
 
 		<Param name="stf_gain_map" type="short_array"/>
-
-		<Param name="hp_impedance_enable" type="int"/>
-		<Param name="hp_impedance_onboard_resistor" type="int"/>
-		<Param name="hp_impedance_default_idx" type="int"/>
-		<Param name="hp_impedance_threshold_list" type="short_array"/>
-		<Param name="hp_impedance_gain_degrade_list" type="short_array"/>
 	</ParamUnit>
 </ParamUnitDesc>

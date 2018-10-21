@@ -25,6 +25,7 @@
 			<Category name="HS5POLE" alias="5-pole HS"/>
 			<Category name="HS5POLE_ANC" alias="5-pole HS+ANC"/>
 			<Category name="BT earphone" alias="Bluetooth"/>
+			<Category name="USB" wording="USB" feature_option="MTK_AURISYS_FRAMEWORK_SUPPORT"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

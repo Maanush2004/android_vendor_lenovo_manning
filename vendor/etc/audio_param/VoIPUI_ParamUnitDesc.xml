@@ -16,7 +16,8 @@
 				<Category name="Hands-free 1mic NR" wording="Hands-free(1-mic NR)" feature_option="VIR_VOIP_HANDSFREE_DMNR_SUPPORT"/>
 				<Category name="Hands-free no 1mic NR" wording="Hands-free(1-mic NR)" feature_option="!VIR_VOIP_HANDSFREE_DMNR_SUPPORT"/>
 			</CategoryGroup>
-			<Category name="BT earphone" wording="Bluetooth"/>
+			<Category name="BT earphone" alias="BT_NREC_Off" wording="Bluetooth"/>
+			<Category name="USB"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>
