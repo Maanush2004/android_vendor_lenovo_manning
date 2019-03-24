@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ParamUnitDesc tab_name="VoIP" version="1.0">
+<ParamUnitDesc tab_name="VoIP" version="1.0" feature_option="!MTK_AURISYS_FRAMEWORK_SUPPORT">
 	<CategoryTypeList>
 		<CategoryType name="Profile" wording="Device">
 			<CategoryGroup name="Handset">
@@ -16,7 +16,8 @@
 				<Category name="Hands-free 1mic NR" wording="Hands-free(1-mic NR)" feature_option="VIR_VOIP_HANDSFREE_DMNR_SUPPORT"/>
 				<Category name="Hands-free no 1mic NR" wording="Hands-free(1-mic NR)" feature_option="!VIR_VOIP_HANDSFREE_DMNR_SUPPORT"/>
 			</CategoryGroup>
-			<Category name="BT earphone" wording="Bluetooth"/>
+			<Category name="BT earphone" alias="BT_NREC_Off"/>  <!-- For VoIPv1, Not support BT AEC -->
+			<Category name="USB"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>
@@ -136,8 +137,10 @@
 		<Param name="sph_in_fir" type="short_array"/>
 		<Param name="sph_in_fir_eq_freq" type="double_array"/>
 		<Param name="sph_in_fir_eq_mag" type="double_array"/>
+		<Param name="sph_in_parameter" type="double_array"/>
 		<Param name="sph_out_fir" type="short_array"/>
 		<Param name="sph_out_fir_eq_mag" type="double_array"/>
 		<Param name="sph_out_fir_eq_freq" type="double_array"/>
+		<Param name="sph_out_parameter" type="double_array"/>
 	</ParamUnit>
 </ParamUnitDesc>

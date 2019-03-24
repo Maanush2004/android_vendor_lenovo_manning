@@ -4,7 +4,9 @@
     <Param path="" param_id="0"/>
     <Param path="ASR,Handset" param_id="1"/>
     <Param path="ASR" param_id="2"/>
+    <Param path="ASR,USB" param_id="0"/>
     <Param path="Customization2" param_id="2"/>
+    <Param path="Customization2,USB" param_id="0"/>
     <Param path="SndRecNormal,Handset" param_id="3"/>
     <Param path="SndRecLecture,Handset" param_id="3"/>
     <Param path="SndRecMeeting,Handset" param_id="3"/>

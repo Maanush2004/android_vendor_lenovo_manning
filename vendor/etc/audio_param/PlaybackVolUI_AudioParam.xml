@@ -13,6 +13,7 @@
     <Param path="Ring_Alarm,HSSPK_NO_ANA" param_id="1"/>
     <Param path="Ring_Alarm,HS5POLE" param_id="0"/>
     <Param path="Ring_Alarm,HS5POLE_ANC" param_id="0"/>
+    <Param path="Ring_Alarm,USB" param_id="5"/>
     <Param path="Others,RCV" param_id="4"/>
     <Param path="Others,HS" param_id="1"/>
     <Param path="Others,SPK_INT" param_id="2"/>
@@ -25,6 +26,7 @@
     <Param path="Others,HSSPK_NO_ANA" param_id="0"/>
     <Param path="Others,HS5POLE" param_id="1"/>
     <Param path="Others,HS5POLE_ANC" param_id="1"/>
+    <Param path="Others,USB" param_id="5"/>
     <Param path="Notification,RCV" param_id="4"/>
     <Param path="Notification,HS" param_id="1"/>
     <Param path="Notification,SPK_INT" param_id="2"/>
@@ -37,6 +39,7 @@
     <Param path="Notification,HSSPK_NO_ANA" param_id="1"/>
     <Param path="Notification,HS5POLE" param_id="1"/>
     <Param path="Notification,HS5POLE_ANC" param_id="1"/>
+    <Param path="Notification,USB" param_id="5"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">

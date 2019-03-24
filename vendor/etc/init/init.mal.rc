@@ -25,7 +25,7 @@ on property:persist.chiptest.enable=1
 
 service mal-daemon /vendor/bin/mtkmal
     class core
-    socket mal-mfi stream 660 root radio
+    socket mal_mfi stream 660 root radio
     socket volte_imsm stream 660 root radio
     user root
     group radio cache inet misc log system wifi

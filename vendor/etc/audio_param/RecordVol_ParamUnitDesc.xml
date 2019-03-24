@@ -19,6 +19,7 @@
 			<Category name="Headset" wording="Headset" alias="HS,4-pole HS"/>
 			<Category name="HS5POLE" wording="Headset(5-pole)" alias="5-pole HS"/>
 			<Category name="HS5POLE_ANC" wording="Headset(5-pole+ANC)" alias="5-pole HS+ANC"/>
+			<Category name="USB" wording="USB" feature_option="MTK_AURISYS_FRAMEWORK_SUPPORT"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

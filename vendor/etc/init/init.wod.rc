@@ -19,8 +19,6 @@ service epdg_wod /vendor/bin/epdg_wod
     class late_start
     socket wod_action stream 660 root system
     socket wod_sim    stream 660 root system
-    socket wod_ipsec  stream 660 root system
-
     user root
     group root system log inet radio net_admin
 #    disabled

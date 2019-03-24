@@ -5,6 +5,7 @@
 			<Category name="Headset" alias="3-pole headset,4-pole headset,5-pole headset,HS5POLE,5-pole headset+ANC"/>
 			<Category name="Speaker" alias="Hands-free 1mic NR,Hands-free no 1mic NR"/>
 			<Category name="Headset+Speaker"/>
+			<Category name="USB"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

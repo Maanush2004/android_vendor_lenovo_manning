@@ -10,6 +10,7 @@
     <Param path="HS5POLE_ANC" param_id="1"/>
     <Param path="HAC" param_id="2"/>
     <Param path="TTY" param_id="4"/>
+    <Param path="USB" param_id="5"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
@@ -36,6 +37,11 @@
       <Param name="dl_gain_visibility" value="0"/>
       <Param name="ul_gain_visibility" value="1"/>
       <Param name="stf_gain_visibility" value="0"/>
+    </ParamUnit>
+    <ParamUnit param_id="5">
+      <Param name="dl_gain_visibility" value="1"/>
+      <Param name="ul_gain_visibility" value="1"/>
+      <Param name="stf_gain_visibility" value="-1"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>

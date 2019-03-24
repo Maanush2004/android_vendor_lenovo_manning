@@ -13,6 +13,7 @@
 			<Category name="HSSPK" alias="Headset+Speaker"/>
 			<Category name="HS5POLE" alias="5-pole Headset"/>
 			<Category name="HS5POLE_ANC" alias="5-pole headset+ANC"/>
+			<Category name="USB"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>
@@ -29,6 +30,7 @@
 			<Field name="rcv_ana_gain" feature_option="RCV_PATH_INT" array_index="0" bit="0,15" check_list="0,8dB,1,7dB,2,6dB,3,5dB,4,4dB,5,3dB,6,2dB,7,1dB,8,0dB,9,-1dB,10,-2dB,11,-3dB,12,-4dB,13,-5dB,14,-6dB,15,-7dB,16,-8dB,17,-9dB,18,-10dB"/>
 			<Field name="rcv_ana_gain" feature_option="RCV_PATH_2_IN_1_SPK" array_index="0" bit="0,15" check_list="15,17dB,14,16dB,13,15dB,12,14dB,11,13dB,10,12dB,9,11dB,8,10dB,7,9dB,6,8dB,5,7dB,4,6dB,3,5dB,2,4dB"/>
 			<Field name="rcv_ana_gain" feature_option="RCV_PATH_3_IN_1_SPK" array_index="0" bit="0,15" check_list="15,17dB,14,16dB,13,15dB,12,14dB,11,13dB,10,12dB,9,11dB,8,10dB,7,9dB,6,8dB,5,7dB,4,6dB,3,5dB,2,4dB"/>
+			<Field name="rcv_ana_gain" feature_option="RCV_PATH_NO_ANA" array_index="0" bit="0,15" check_list="0,0dB,0,0dB"/>
 		</Param>
 		<Param name="amp" type="short_array"/>
 	</ParamUnit>

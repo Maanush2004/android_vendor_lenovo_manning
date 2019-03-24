@@ -4,6 +4,7 @@
     <Param path="RCV_NORMAL" param_id="0"/>
     <Param path="RCV_2_IN_1" param_id="7"/>
     <Param path="RCV_3_IN_1" param_id="7"/>
+    <Param path="RCV_NO_ANA" param_id="5"/>
     <Param path="HS" param_id="1"/>
     <Param path="SPK_INT" param_id="2"/>
     <Param path="SPK_LO" param_id="3"/>
@@ -14,6 +15,7 @@
     <Param path="HAC" param_id="0"/>
     <Param path="BT" param_id="6"/>
     <Param path="TTY" param_id="1"/>
+    <Param path="USB" param_id="5"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
