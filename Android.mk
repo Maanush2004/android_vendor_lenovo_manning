@@ -77,7 +77,7 @@ LOCAL_MODULE_CLASS = SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX = .so
 LOCAL_MULTILIB = both
 LOCAL_SRC_FILES_32 = vendor/lib/libion_mtk.so
-LOCAL_SRC_FILES_32 = vendor/lib64/libion_mtk.so
+LOCAL_SRC_FILES_64 = vendor/lib64/libion_mtk.so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -127,6 +127,18 @@ LOCAL_MODULE := libmtkplayer
 LOCAL_SRC_FILES_64 := vendor/lib64/libmtkplayer.so
 LOCAL_SRC_FILES_32 := vendor/lib/libmtkplayer.so
 LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libril
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES_32 := vendor/lib/libril.so
+LOCAL_SRC_FILES_64 := vendor/lib64/libril.so
+LOCAL_MULTILIB := both
+LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
