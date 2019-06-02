@@ -1,5 +1,5 @@
 service ril-daemon-mtk /vendor/bin/mtkrild
-    class main
+    class core
     socket mrild stream 660 root radio
     socket mrild2 stream 660 root radio
     socket mrild3 stream 660 root radio
@@ -18,6 +18,9 @@ service ril-daemon-mtk /vendor/bin/mtkrild
     socket rild-mbim stream 660 root radio
     socket msap_uim_socket1 stream 660 radio radio
     socket msap_uim_socket2 stream 660 radio radio
-    user radio
-    group radio cache inet misc audio sdcard_r sdcard_rw log readproc wakelock system
-	capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
+    user root
+    group radio cache inet misc audio sdcard_r sdcard_rw log system
+    disabled
+
+on property:ril.mtk=1
+    start ril-daemon-mtk
